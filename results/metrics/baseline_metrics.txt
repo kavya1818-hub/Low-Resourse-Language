@@ -1,0 +1,21 @@
+TF-IDF + Logistic Regression Baseline
+==================================================
+
+Training samples: 806
+Test samples: 173
+
+Accuracy: 0.8382
+Precision: 0.8397
+Recall: 0.8382
+F1-score: 0.8379
+
+Classification Report
+--------------------------------------------------
+              precision    recall  f1-score   support
+
+    Negative       0.86      0.80      0.83        86
+    Positive       0.82      0.87      0.84        87
+
+    accuracy                           0.84       173
+   macro avg       0.84      0.84      0.84       173
+weighted avg       0.84      0.84      0.84       173

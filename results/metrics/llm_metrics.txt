@@ -1,0 +1,18 @@
+LLM HINDI SENTIMENT CLASSIFICATION
+============================================================
+
+Model: Qwen/Qwen2.5-0.5B-Instruct
+Test samples: 173
+
+ZERO-SHOT
+Accuracy  : 0.6185
+Precision : 0.7627
+Recall    : 0.6185
+F1-score  : 0.5592
+
+FEW-SHOT
+Accuracy  : 0.6994
+Precision : 0.7697
+Recall    : 0.6994
+F1-score  : 0.6792
+

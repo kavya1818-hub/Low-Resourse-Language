@@ -1,0 +1,32 @@
+mBERT + LoRA Hindi Sentiment Classification
+============================================================
+
+Model: bert-base-multilingual-cased
+PEFT Method: LoRA
+LoRA rank (r): 8
+LoRA alpha: 16
+LoRA dropout: 0.1
+
+Training samples: 806
+Validation samples: 173
+Test samples: 173
+
+Accuracy: 0.7341
+Precision: 0.7450
+Recall: 0.7341
+F1-score: 0.7314
+
+Total parameters: 178,151,428
+Trainable parameters: 296,450
+Trainable percentage: 0.1664%
+
+Classification Report
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+    Negative     0.6923    0.8372    0.7579        86
+    Positive     0.7971    0.6322    0.7051        87
+
+    accuracy                         0.7341       173
+   macro avg     0.7447    0.7347    0.7315       173
+weighted avg     0.7450    0.7341    0.7314       173
